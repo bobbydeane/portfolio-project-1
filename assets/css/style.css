@@ -9,4 +9,19 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    color: #3a3a3a
+}
+
+/* Headings and Logo Style */
+
+h1, h2 {
+    font-family: 'poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
