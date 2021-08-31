@@ -24,6 +24,8 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+
+    margin-left: 30px;
 }
 
 /* Navigation links and menu */
@@ -53,4 +55,88 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* Peaclines Main Image and cover text */
+
+#peaceline-main {
+    height: 900px;
+    width: 100%;
+    background: url('../images/Frankie_quinn_peaceline.jpg') /* no-repeat center center */;
+    /* background-size: auto 100%; 
+    background-repeat: no-repeat; */
+}
+
+    #cover-text {
+    color: black;
+    font-size: 130%;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    
+    width: 300px;
+    height: 200px;
+    
+    padding-top: 40px;
+    padding-left: 10px;
+    
+    background-color: rgba(201, 199, 186, 0.7);
+
+    bottom: 100px;
+    right: 150px;
+    position: absolute;
+    } 
+
+    #hero-outer {
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+    
+        position: relative;
+    }
+
+    /* #cover-text {
+        font-size: 130%;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    
+        width: 300px;
+        height: 200px;
+    
+        padding-top: 40px;
+        padding-left: 10px;
+    
+        background-color: (rgba 246, 217, 0, 1 .7);
+
+        bottom: 100px;
+        right: 150px;
+        position: absolute;
+    }
+*/
+  
+/* About us page styling */
+
+#about-us {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: green;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: green;
+}
+
+#centre-about {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
 }
