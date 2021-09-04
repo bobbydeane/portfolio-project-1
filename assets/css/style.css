@@ -14,6 +14,17 @@ body {
 
 /* Headings and Logo Style */
 
+#header {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(201, 199, 186, 0.7);
+/*
+    position: fixed;
+
+    */
+    
+}
+
 h1, h2 {
     font-family: 'poppins', sans-serif;
     text-transform: uppercase;
@@ -47,6 +58,7 @@ h1, h2 {
 
 #menu a {
     text-decoration: none;
+    color: black;
 }
 
 #menu a:hover {
@@ -57,7 +69,16 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Peaclines Main Image and cover text */
+/* Peaclines Main Image, cover text and main description */
+
+
+#hero-outer {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
 
 #peaceline-main {
     height: 800px;
@@ -81,61 +102,113 @@ h1, h2 {
     padding-top: 40px;
     padding-left: 10px;
     
-    background-color: rgba(201, 199, 186, 0.7);
+    background-color: rgba(245, 244, 238, 0.75);
 
     bottom: 150px;
     right: 50px;
     position: absolute;
     } 
 
-    #hero-outer {
-        height: 600px;
-        width: 100%;
-        overflow: hidden;
     
-        position: relative;
-    }
 
   
-/* About us page styling */
 
-#about-us {
+
+#description {
     height: 400px;
     width: 100%;
-    background-color: red;
+    background-color: white;
+
+    display: inline-block;
+
 }
 
-#about-us-left {
+#description-left {
     height: 100%;
     width: 30%;
-    background-color: seagreen;
+    background-color: white;
     float: left;
     font-size: 250%;
     padding-left: 50px;
-    
-
+    color: black;
 }
 
-#about-us-right {
+#description-right {
     height: 100%;
-    width: 50%;
+    width: %;
     background-color: rgb(170, 197, 209);
-    float: left;
-    text-align: center;
+    float: right;
+    text-align: center center;
 }
 
-#about-us-bottom {
 
-    height: 400px;
+/* About us page styling */
+
+#about-outer {
+    height: 600px;
     width: 100%;
-    background: url('../images/full_colour_mural_main.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 400px;
+
+    overflow: hidden;
 }
 
-#about-us-bottom h2 {
+#about-main {
+
+    height: 500px;
+    width: 100%;
+    background: url('../images/full_colour_mural_main.jpg') no-repeat center center;
+    /* background-size: 100% 300px;*/
+
+/** Aninmates zoom effect on loading page **/
+    animation-name: about-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+
+}
+/** Creates the level of zoom for the about our tour Image **/
+
+@keyframes about-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+#about-main h2 {
     float: right;
     font-size: 250%;
-    padding-left: 50px;
+    padding-left: 100px;
     color: yellow;
+    text-align: center;
+    padding-top: 200px;
+    padding-right: 100px;
+}
+
+/*Dander ethos and about styles */
+
+#dander-ethos {
+
+    height: 500px
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: cadetblue;
+}
+
+#centre-about {
+    width: 33%;
+    margin: 0 auto;
+    background-color: silver;
 }
