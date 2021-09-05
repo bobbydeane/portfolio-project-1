@@ -270,3 +270,51 @@ hr {
     background: url('../images/Belfast-Berlin3.jpeg');
     background-repeat: no-repeat;
 }
+
+/* Sign up page structure and style */
+
+#sign-up-container {
+
+    height: 700px;
+    width: 100%;
+    background-color: #3a3a3a;
+    display: inline-block;
+    clear: both;
+}
+
+#sign-up-left {
+    height: 550px;
+    width: 50%;
+    background-color: #ccc;
+    float: left;
+    
+}
+
+#sign-up-right {
+    height: 550px;
+    width: 50%;
+    background-color: aliceblue;
+    float: right;
+}
+
+.reviews {
+    height: auto;
+    width: 40%;
+    background-color: blanchedalmond;
+    display: inline-block;
+    margin: 15px;
+    
+}
+
+
+.reviews p {
+    padding: 5px;
+    font-size: 80%;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 2%;
+} 
+
+/* sign up page schedule table */
+
