@@ -111,34 +111,60 @@ h1, h2 {
 
     
 
-  
-
 
 #description {
-    height: 400px;
+    height: 700px;
     width: 100%;
     background-color: white;
 
-    display: inline-block;
+    display: block;
 
 }
 
-#description-left {
-    height: 100%;
+#description h2 {
+    font-size: 400%;
     width: 30%;
-    background-color: white;
     float: left;
-    font-size: 250%;
-    padding-left: 50px;
+    padding: 5px;
+}
+
+#description p {
+    width: 45%;
+    font-size: 150%;
+    padding: 5px;
+    
+}
+
+#description-top {
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    padding: 40px;
     color: black;
 }
 
-#description-right {
-    height: 100%;
-    width: 50%;
-    background-color: rgb(170, 197, 209);
+#description-top h2 {
+    float: left;
+    text-align: left;
+}
+
+#description-top p {
     float: right;
-    text-align: center center;
+    
+    margin-right: auto;
+}
+
+#description-bottom {
+    height: 50%;
+    width: 100%;
+    background-color: rgb(170, 197, 209);
+    text-align: left;
+    padding: 40px;
+}
+
+#description-bottom h2 {
+    float: right;
+    text-align: right;
 }
 
 
@@ -155,16 +181,17 @@ h1, h2 {
 
     height: 350px;
     width: 100%;
-    background: url('../images/full_colour_mural_main.jpg') no-repeat center center;
-    /* background-size: 100% 300px;*/
+    background: url('../images/full_colour_mural_main.jpg') no-repeat center center rgba(201, 199, 186, 0.7);
+    filter: grayscale(100%);
+    
 
 /** Aninmates zoom effect on loading page **/
     animation-name: about-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-
-
 }
+
+
 /** Creates the level of zoom for the about our tour Image **/
 
 @keyframes about-zoom {
@@ -177,17 +204,54 @@ h1, h2 {
 }
 
 #about-main h2 {
-    float: right;
-    font-size: 250%;
-    padding-left: 100px;
+    
+    font-size: 300%;
     color: yellow;
     text-align: center;
-    padding-top: 200px;
-    padding-right: 100px;
+    padding: 70px;
+}
+
+#about-main-left {
+
+    float: left;
+}
+
+#about-main-right {
+
+    float: right;
 }
 
 /*Dander ethos and about styles */
 
+.about-containers {
+    height: 250px;
+    width: 100%;
+    background-color: rgba(201, 199, 186, 0.7);
+
+    padding: 20px;
+}
+
+hr {
+    border-top: 3px solid black;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.about-containers h2 {
+    font-size: 400%;
+    color: black;
+}
+
+.about-containers p {
+    float: right;
+    font-size: 110%;
+    color: black;
+
+    padding: 10px;
+
+}
+
+/*
 #dander-ethos {
 
     height: 500px
@@ -216,13 +280,11 @@ h1, h2 {
     margin: 0 auto;
     background-color: gold;
 }
+*/
 
-hr {
-    border-top: 3px solid #3a3a3a;
-    width: 100%;
-    margin: 10px 0;
-}
 
+
+/*
 .left-about-heading {
     width: 90%;
     float: right;
@@ -249,6 +311,8 @@ hr {
     font-size: 250%;
 }
 
+*/
+
 /* About Page Image */
 
 #centre-image-container {
@@ -270,6 +334,9 @@ hr {
     background: url('../images/Belfast-Berlin3.jpeg');
     background-repeat: no-repeat;
 }
+
+
+
 
 /* Sign up page structure and style */
 
@@ -373,5 +440,4 @@ input {
         border: 1px solid black;
         border-radius: 5px;
         box-sizing: border-box;
-      
 }
