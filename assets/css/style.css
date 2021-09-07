@@ -39,6 +39,28 @@ h1, h2 {
     margin-left: 30px;
 }
 
+/* Footer and social media Style - Taken from love running project */
+
+footer {
+    height: 150px;
+    background-color: aqua;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
 /* Navigation links and menu */
 
 #menu {
@@ -109,53 +131,37 @@ h1, h2 {
     position: absolute;
     } 
 
-    
-
-
-#description {
-    height: 700px;
-    width: 100%;
-    background-color: white;
-
-    display: block;
-
-}
-
-#description h2 {
-    font-size: 400%;
-    width: 30%;
-    float: left;
-    padding: 5px;
-}
-
-#description p {
-    width: 45%;
-    font-size: 150%;
-    padding: 5px;
-    
-}
+    /*Description page Div styles*/
 
 #description-top {
-    height: 50%;
+    height: 300px;
     width: 100%;
     background-color: white;
     padding: 40px;
     color: black;
+    
 }
 
 #description-top h2 {
     float: left;
     text-align: left;
+
+    font-size: 400%;
+    width: 30%;
+    padding: 5px;
 }
 
 #description-top p {
     float: right;
-    
-    margin-right: auto;
+    width: 45%;
+    font-size: 120%;
+    padding: 5px;
+    padding-right: 20px;
+    margin-right: 50px;
 }
 
 #description-bottom {
-    height: 50%;
+    height: 300px;
     width: 100%;
     background-color: rgb(170, 197, 209);
     text-align: left;
@@ -165,6 +171,20 @@ h1, h2 {
 #description-bottom h2 {
     float: right;
     text-align: right;
+
+    font-size: 400%;
+    width: 40%;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+#description-bottom p {
+    float: left;
+    width: 55%;
+    font-size: 130%;
+    padding: 5px;
+    
+    margin-right: auto;
 }
 
 
@@ -247,132 +267,10 @@ hr {
     font-size: 110%;
     color: black;
 
-    padding: 10px;
-
-}
-
-/*
-#dander-ethos {
-
-    height: 500px
-}
-
-#left-about {
-    padding-top: 30px;
-    height: 500px;
-    width: 33%;
-    float: left;
-    background-color: burlywood;
-}
-
-#right-about {
-    padding-top: 30px;
-    height: 500px;
-    width: 33%;
-    float: right;
-    background-color: cadetblue;
-}
-
-#centre-about {
-    padding-top: 30px;
-    height: 500px;
-    width: 33%;
-    margin: 0 auto;
-    background-color: gold;
-}
-*/
-
-
-
-/*
-.left-about-heading {
-    width: 90%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading {
-    width: 90%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading > h2 {
-    float: right;
-}
-
-#about-title {
-    text-align: center;
-    margin: 50px 0;
-    font-size: 250%;
-}
-
-*/
-
-/* About Page Image */
-
-#centre-image-container {
-    background-color: darkcyan;
-    width: 300px;
-    height: 400px;
-    padding: 15px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 3px;
-    border-radius: 10%;
-    margin: 0 auto;
-
-}
-
-#centre-image {
-    height: 400px;
-    width: 100%;
-    background: url('../images/Belfast-Berlin3.jpeg');
-    background-repeat: no-repeat;
 }
 
 
-
-
-/* Sign up page structure and style */
-
-
-/*
-#sign-up-image {
-    height: 250px;
-    width: auto;
-    background: url('../images/FPI-Frankie+Best+35mm111_resized.jpg') center center;
-    background-repeat: left;
-}
-*/
-
-#sign-up-container {
-
-    height: 700px;
-    width: 100%;
-    background-color: #3a3a3a;
-    display: inline-block;
-    clear: both;
-}
-
-#sign-up-left {
-    height: 550px;
-    width: 50%;
-    background-color: #ccc;
-    float: left;
-    
-}
-
-#sign-up-right {
-    height: 550px;
-    width: 50%;
-    background-color: aliceblue;
-    float: right;
-}
+/* Sign up page */
 
 .reviews {
     height: auto;
@@ -424,20 +322,32 @@ th, td {
 
 /* Form styling */
 
+
 .form {
-    height: auto;
-    width: 100%;
+    height: 800px;
+    width: 650px;
     background-color: chocolate;
-    padding-bottom: 20px;
-    
+    margin: 50px 50px;
+    margin-right: 50px;
+
+    border: 1px solid black;
+    border-radius: 1%;
 }
 
 input {
         width: 50%;
-        padding: 12px 20px;
-        margin: 10px;
-        display: block;
+        padding: 1px;
         border: 1px solid black;
         border-radius: 5px;
         box-sizing: border-box;
+        float: right;
 }
+
+label {
+    
+    width: 150px;
+    height: 20px;
+    text-align: left;
+    position: relative;
+}
+
