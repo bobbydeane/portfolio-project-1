@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Joyce-rounded';
+  src: url('Joyce-rounded.woff2') format('woff2'),
+       url('Joyce-rounded.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

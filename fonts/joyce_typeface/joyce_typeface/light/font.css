@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Joyce-light';
+  src: url('Joyce-light.woff2') format('woff2'),
+       url('Joyce-light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
