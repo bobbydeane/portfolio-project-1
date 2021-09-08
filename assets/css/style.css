@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Source+Sans+Pro&display=swap');
 
 * {
     margin: 0;
@@ -10,7 +10,7 @@
       
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     color: #3a3a3a
 }
@@ -87,6 +87,8 @@ footer {
 #menu a {
     text-decoration: none;
     color: black;
+    font-weight: bold;
+    
 }
 
 #menu a:hover {
@@ -120,7 +122,7 @@ footer {
     #cover-text {
     color: black;
     font-size: 130%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     
@@ -128,7 +130,7 @@ footer {
     height: 200px;
     
     padding-top: 40px;
-    padding-left: 10px;
+    padding-left: 20px;
     
     background-color: rgba(245, 244, 238, 0.75);
 
@@ -230,21 +232,18 @@ footer {
 #about-main * {
     
     font-size: 400%;
-    color: yellow;
     text-align: left;
     padding: 70px;
 }
-/*
-#about-main-left {
 
-    float: left;
+#about-main h2 {
+text-align: center center;
+    font-size: 700%;
+    color: orange;
+    padding-left: 5%;
+
 }
 
-#about-main-right {
-
-    float: right;
-}
-*/
 
 /*Dander ethos and about styles */
 
@@ -257,8 +256,7 @@ footer {
 
 hr {
     border-top: 3px solid black;
-    width: 100%;;
-    margin-left: 20px;
+    width: 100%;
 }
 
 .about-containers h2 {
@@ -281,7 +279,7 @@ hr {
 /* Sign up page */
 
 #sign-up-main {
-    background-color: rgba(201, 199, 186, 0.7);
+    background-color: rgba(245, 244, 238);
     height: 600px;
     width: 100%;
 }
@@ -297,8 +295,18 @@ hr {
 #sign-up-photo h2 {
 
     text-align: center center;
-    font-size: 600%;
-    color: burlywood;
+    font-size: 700%;
+    color: orange;
+    padding-left: 5%;
+}
+
+/*Reviews containers */
+
+#reviews-container {
+
+    height: 300px;
+    width: 100%;
+    background-color: rgba(245, 244, 238);
 }
 
 .reviews {
@@ -324,9 +332,10 @@ hr {
 
 #details {
 
-    height: 200px;
+    height: 250px;
     width: 100%;
     background-color: rgba(245, 244, 238);
+    padding-top: 2%;
 }
 
 #details h2 {
@@ -350,7 +359,7 @@ hr {
 /* Form styling ---- Style borrowed from w3 schools - https://www.w3schools.com/css/tryit.asp?filename=trycss_forms */
 
 #form-container {
-    height: 600px;
+    height: 500px;
     max-width: 100%;
     padding: 5%;
     background-color: rgba(245, 244, 238);
@@ -385,7 +394,7 @@ Gallery main Image
 */
 
 #gallery-main {
-    background-color: rgba(201, 199, 186, 0.7);
+    background-color: rgba(245, 244, 238);
     height: 600px;
     width: 100%;
 }
@@ -403,26 +412,56 @@ Gallery main Image
 #gallery-main-image h2 {
 
     text-align: center center;
-    font-size: 600%;
-    color: burlywood;
+    font-size: 700%;
+    color: orange;
+    padding-left: 5%;
 }
 
-.photos {
-    background-color: rgba(201, 199, 186, 0.7);
-    height: 500px;
-    
-    width: 100%;
-    column-count: 4;
-    line-height: 0;
-    column-gap: 2px;
-    padding: 5px;
-}
+
 
 img {
 
     height: 200px;
     clear: both;
-    display: inline-block;
-    
+    display: inline-block;   
 }
 
+/* Gallery section taken from W3 site - card section */
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 31%;
+    padding: 0 10px;
+    height: 300px;
+    background-color: rgba(245, 244, 238);
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;
+    background-color: rgba(245, 244, 238);
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
