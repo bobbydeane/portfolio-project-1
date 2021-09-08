@@ -6,17 +6,7 @@
     border: none;
 }
 
-/* PAULA FONT 
 
-@font-face {
-    font-family: 'Joyce-Regular';
-    src: url('fonts/joyce_typeface/joyce_typeface/regular/Joyce-Regular.woff2') format('woff2'),
-         url('fonts/joyce_typeface/joyce_typeface/regular/Joyce-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  */
       
 
 body {
@@ -25,12 +15,13 @@ body {
     color: #3a3a3a
 }
 
+
 /* Headings and Logo Style */
 
 #header {
     height: 70px;
     width: 100%;
-    background-color: rgba(201, 199, 186, 0.7);
+    background-color: rgba(245, 244, 238);
 /*
     position: fixed;
 
@@ -55,8 +46,9 @@ h1, h2 {
 /* Footer and social media Style - Taken from love running project */
 
 footer {
-    height: 150px;
-    background-color: aqua;
+    height: 75px;
+    width: 100%;
+    background-color: rgba(245, 244, 238)
 }
 
 .social-networks {
@@ -70,9 +62,10 @@ footer {
 .social-networks i {
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
+    padding: 1%;
     color: #3a3a3a;
 }
+
 
 /* Navigation links and menu */
 
@@ -108,7 +101,7 @@ footer {
 
 
 #hero-outer {
-    height: 800px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
 
@@ -149,8 +142,7 @@ footer {
 #description-top {
     height: 300px;
     width: 100%;
-    background-color: white;
-    padding: 40px;
+    background-color: rgba(245, 244, 238, 0.75);
     color: black;
     
 }
@@ -158,53 +150,51 @@ footer {
 #description-top h2 {
     float: left;
     text-align: left;
-
+    padding-left: 100px;
     font-size: 400%;
     width: 30%;
-    padding: 5px;
 }
 
 #description-top p {
     float: right;
-    width: 45%;
+    width: 50%;
     font-size: 120%;
-    padding: 5px;
-    padding-right: 20px;
-    margin-right: 50px;
+    padding-right: 100px;
+    padding-top: 60px;
+
+    
 }
 
 #description-bottom {
     height: 300px;
     width: 100%;
-    background-color: rgb(170, 197, 209);
-    text-align: left;
-    padding: 40px;
+    background-color: rgba(245, 244, 238);
+    color: black;
 }
 
 #description-bottom h2 {
     float: right;
     text-align: right;
+    padding-right: 100px;
 
     font-size: 400%;
-    width: 40%;
-    padding: 5px;
-    margin-right: 20px;
+    width: 30%;
+    
 }
 
 #description-bottom p {
     float: left;
-    width: 55%;
-    font-size: 130%;
-    padding: 5px;
-    
-    margin-right: auto;
+    width: 45%;
+    font-size: 120%;
+    padding-left: 100px;
+    padding-top: 60px;
 }
 
 
 /* About us page styling */
 
 #about-outer {
-    height: 350px;
+    height: 600px;
     width: 100%;
 
     overflow: hidden;
@@ -212,7 +202,7 @@ footer {
 
 #about-main {
 
-    height: 350px;
+    height: 600px;
     width: 100%;
     background: url('../images/full_colour_mural_main.jpg') no-repeat center center rgba(201, 199, 186, 0.7);
     filter: grayscale(100%);
@@ -223,6 +213,7 @@ footer {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
 
 
 /** Creates the level of zoom for the about our tour Image **/
@@ -236,14 +227,14 @@ footer {
     }
 }
 
-#about-main h2 {
+#about-main * {
     
-    font-size: 300%;
+    font-size: 400%;
     color: yellow;
-    text-align: center;
+    text-align: left;
     padding: 70px;
 }
-
+/*
 #about-main-left {
 
     float: left;
@@ -253,37 +244,62 @@ footer {
 
     float: right;
 }
+*/
 
 /*Dander ethos and about styles */
 
 .about-containers {
-    height: 250px;
+    height: 320px;
     width: 100%;
-    background-color: rgba(201, 199, 186, 0.7);
-
-    padding: 20px;
+    background-color: rgba(245, 244, 238);
+    
 }
 
 hr {
     border-top: 3px solid black;
-    width: 100%;
-    margin: 10px 0;
+    width: 100%;;
+    margin-left: 20px;
 }
 
 .about-containers h2 {
     font-size: 400%;
     color: black;
+
+    padding-left: 5%;
 }
 
 .about-containers p {
     float: right;
     font-size: 110%;
     color: black;
+    padding: 2%;
+    padding-left: 5%;
 
 }
 
 
 /* Sign up page */
+
+#sign-up-main {
+    background-color: rgba(201, 199, 186, 0.7);
+    height: 600px;
+    width: 100%;
+}
+
+#sign-up-photo {
+    height: 600px;
+    width: 100%;
+    background: url('../images/PoliceandBoy-1120x750.jpg');
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sign-up-photo h2 {
+
+    text-align: center center;
+    font-size: 600%;
+    color: burlywood;
+}
 
 .reviews {
     height: auto;
@@ -306,92 +322,100 @@ hr {
 
 /* sign up page schedule table */
 
-#timetable {
-    height: auto;
+#details {
+
+    height: 200px;
     width: 100%;
-    background-color: burlywood;
-    margin: 25px;
+    background-color: rgba(245, 244, 238);
 }
 
-table {
-	width: 80%;
-    margin: 5%;
-    padding: 5px;
+#details h2 {
+
+    font-size: 300%;
+    color: black;
+
+    padding-left: 5%;
 }
 
-tr {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-}
+#details p {
 
-tr, th, td {
-	text-align: right;
-}
-
-th, td {
-	border: 2px solid black;
-	padding: 2px;
-}
-
-/* Form styling */
-
-
-.form {
-    height: 800px;
-    width: 650px;
-    background-color: chocolate;
-    margin: 50px 50px;
-    margin-right: 50px;
-
-    border: 1px solid black;
-    border-radius: 1%;
-}
-
-input {
-        width: 50%;
-        padding: 1px;
-        border: 1px solid black;
-        border-radius: 5px;
-        box-sizing: border-box;
-        float: right;
-}
-
-label {
+    float: right;
+    font-size: 110%;
+    color: black;
+    padding: 2%;
+    padding-left: 5%;
     
-    width: 150px;
-    height: 20px;
-    text-align: left;
-    position: relative;
 }
+
+/* Form styling ---- Style borrowed from w3 schools - https://www.w3schools.com/css/tryit.asp?filename=trycss_forms */
+
+#form-container {
+    height: 600px;
+    max-width: 100%;
+    padding: 5%;
+    background-color: rgba(245, 244, 238);
+}
+
+#form-container h2 {
+    font-size: 200%;
+    padding-bottom: 5%;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  
+  input[type=submit]:hover {
+    background-color: #b6ecb8;
+  }
+  
+
 
 /* Gallery & Photos */
 
-/*Gallery main Image
+/*
+Gallery main Image
+*/
 
 #gallery-main {
-    
-    height: 450px;
+    background-color: rgba(201, 199, 186, 0.7);
+    height: 600px;
     width: 100%;
 }
 
 #gallery-main-image {
     
     background: url('../images/martin-nangle.jpg');
-    height: 500px;
+    height: 600px;
     background-repeat: no-repeat;
-    width: 100%;
+    max-width: 100%;
+    background-size: cover;
+    
 }
-*/
-.photos {
 
-    height: 800px;
-    background-color: bisque;
+#gallery-main-image h2 {
+
+    text-align: center center;
+    font-size: 600%;
+    color: burlywood;
+}
+
+.photos {
+    background-color: rgba(201, 199, 186, 0.7);
+    height: 500px;
+    
     width: 100%;
-    column-count: 2;
+    column-count: 4;
     line-height: 0;
-    column-gap: 0px;
-    margin-top: 30px;
-    padding: 5%;
+    column-gap: 2px;
+    padding: 5px;
 }
 
 img {

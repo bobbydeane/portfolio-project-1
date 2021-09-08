@@ -39,78 +39,53 @@
             </ul>
         </nav>
     </header>
-
     <section>
-        <div>
-            <h2>Tour start times</h2>
-            <table>
-                <tr>
-                    <th>
-                      
-                    </th>
-                    <th>
-                      Morning
-                </th>
-                <th>
-                    Afternoon
-                </th>
-                </tr>
-                <tr>
-                    <td>
-                        Mon - Fri
-                    </td>
-                    <td>
-                        11.00
-                    </td>
-                    <td>
-                        14.00
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Weekend
-                    </td>
-                    <td>
-                        10:00
-                    </td>
-                    <td>
-                        13:00
-                    </td>
-                </tr>
-               </table>
-            
-            
-        </div>
+        <div id="sign-up-main">
+            <div id="sign-up-photo">
+                <h2>
+                 Book<br> a <br> tour
+                </h2>
+            </div>
+    </div>
     </section>
 
     <section>
-        <div>
-            <h2>Sign up for our tour Below</h2> 
-            <div class="form">
-                <form action="https://formdump.codeinstitute.net" method="POST" >
-                    <label for="name">Name:<input id="name" type="text"></label>
-                    
-
-                    <label for="party-size">Party-size<input id="party-size" type="number" max="6" min="1" placeholder="max 6"></label>
-                    
-                    
-                    <label for="date">Date of tour<input id="date" type="date"></label>
-                    
-
-                    <label for="morning">Morning<input id="morning" type="checkbox"></label>
-                    
-
-                    <label for="afternoon">Afternoon<input id="afternoon" type="checkbox"></label>
-                    
-                    
-                    <label for="email">Email<input id="email" type="mail"></label>
-                    
-                    
-                    <input type="submit" value="Book Now">
-                    
-                </form>
+        <div id="details">
+            <h2>Details</h2>
+            <p>
+                The tour costs £5 and it is essential to book early to guarantee your spot! Our tour sets off from the International Wall at Divis street everyday at 11am, from there we take you along the falls road and through the Peace Line to the Loyalist Shankhill road. You will then meet your second local guide who will take you a tour of the Peace lines and local Murals. Don't forget to bring an Umbrella! 
+            </p>
             
         </div>
+        <hr>
+    </section>
+
+    <section>
+        <div id="form-container">
+            <h2>Sign up for our tour Below</h2>
+
+        <div>
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+              <label for="party-size">Party-size</label>
+              <input id="party-size" type="number" max="6" min="1" placeholder="max 6">
+
+              <label for="date">Date of tour<input id="date" type="date"></label>
+                    
+            
+              <label for="email">Email</label>
+              <input id="email" type="mail">
+                
+              
+            
+              <input type="submit" value="Submit">
+            </form>
+          </div>
     </section>
 
     <section>
