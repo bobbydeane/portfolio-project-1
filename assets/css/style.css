@@ -5,9 +5,7 @@
     padding: 0;
     border: none;
 }
-
-
-      
+ 
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
@@ -18,16 +16,6 @@ body {
 
 /* Headings and Logo Style */
 
-#header {
-    height: 70px;
-    width: 100%;
-    background-color: rgba(245, 244, 238);
-/*
-    position: fixed;
-
-    */
-    
-}
 
 h1, h2 {
     font-family: 'poppins', sans-serif;
@@ -39,7 +27,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
-
+    background-color: rgba(245, 244, 238);
     margin-left: 30px;
 }
 
@@ -72,6 +60,9 @@ footer {
 #menu {
     font-size: 110%;
     letter-spacing: 3px;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(245, 244, 238);
 }
 
 #menu, #logo {
@@ -87,8 +78,7 @@ footer {
 #menu a {
     text-decoration: none;
     color: black;
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
 
 #menu a:hover {
@@ -106,7 +96,6 @@ footer {
     height: 600px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
 }
 
@@ -114,7 +103,6 @@ footer {
     height: 800px;
     width: 100%;
     background: url('../images/Frankie_quinn_peaceline.jpg');
-    
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -125,15 +113,11 @@ footer {
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    
     width: 300px;
     height: 200px;
-    
     padding-top: 40px;
     padding-left: 20px;
-    
     background-color: rgba(245, 244, 238, 0.75);
-
     bottom: 150px;
     right: 50px;
     position: absolute;
@@ -146,7 +130,6 @@ footer {
     width: 100%;
     color: black;
     background-color: rgba(245, 244, 238)
-    
 }
 
 #description-top h2 {
@@ -162,9 +145,7 @@ footer {
     width: 50%;
     font-size: 120%;
     padding-right: 100px;
-    padding-top: 60px;
-
-    
+    padding-top: 60px;    
 }
 
 #description-bottom {
@@ -178,10 +159,8 @@ footer {
     float: right;
     text-align: right;
     padding-right: 100px;
-
     font-size: 400%;
     width: 30%;
-    
 }
 
 #description-bottom p {
@@ -198,7 +177,6 @@ footer {
 #about-outer {
     height: 600px;
     width: 100%;
-
     overflow: hidden;
 }
 
@@ -230,18 +208,16 @@ footer {
 }
 
 #about-main * {
-    
     font-size: 400%;
     text-align: left;
     padding: 70px;
 }
 
 #about-main h2 {
-text-align: center center;
+    text-align: center center;
     font-size: 700%;
     color: orange;
     padding-left: 5%;
-
 }
 
 
@@ -251,7 +227,6 @@ text-align: center center;
     height: 320px;
     width: 100%;
     background-color: rgba(245, 244, 238);
-    
 }
 
 hr {
@@ -262,7 +237,6 @@ hr {
 .about-containers h2 {
     font-size: 400%;
     color: black;
-
     padding-left: 5%;
 }
 
@@ -272,7 +246,6 @@ hr {
     color: black;
     padding: 2%;
     padding-left: 5%;
-
 }
 
 
@@ -288,12 +261,10 @@ hr {
     height: 600px;
     width: 100%;
     background: url('../images/PoliceandBoy-1120x750.jpg');
-    
     background-size: cover;
     background-repeat: no-repeat;
 }
 #sign-up-photo h2 {
-
     text-align: center center;
     font-size: 700%;
     color: orange;
@@ -303,7 +274,6 @@ hr {
 /*Reviews containers */
 
 #reviews-container {
-
     height: 300px;
     width: 100%;
     background-color: rgba(245, 244, 238);
@@ -315,7 +285,6 @@ hr {
     background-color: blanchedalmond;
     display: inline-block;
     margin: 15px;
-    
 }
 
 
@@ -331,7 +300,6 @@ hr {
 /* sign up page schedule table */
 
 #details {
-
     height: 250px;
     width: 100%;
     background-color: rgba(245, 244, 238);
@@ -339,21 +307,17 @@ hr {
 }
 
 #details h2 {
-
     font-size: 300%;
     color: black;
-
     padding-left: 5%;
 }
 
 #details p {
-
     float: right;
     font-size: 110%;
     color: black;
     padding: 2%;
     padding-left: 5%;
-    
 }
 
 /* Form styling ---- Style borrowed from w3 schools - https://www.w3schools.com/css/tryit.asp?filename=trycss_forms */
@@ -400,17 +364,14 @@ Gallery main Image
 }
 
 #gallery-main-image {
-    
     background: url('../images/martin-nangle.jpg');
     height: 600px;
     background-repeat: no-repeat;
     max-width: 100%;
     background-size: cover;
-    
 }
 
 #gallery-main-image h2 {
-
     text-align: center center;
     font-size: 700%;
     color: orange;
@@ -420,7 +381,6 @@ Gallery main Image
 
 
 img {
-
     height: 200px;
     clear: both;
     display: inline-block;   
@@ -438,7 +398,8 @@ img {
   }
   
   /* Remove extra left and right margins, due to padding */
-  .row {margin: 0 -5px;
+  .row {
+    margin: 0 -5px;
     background-color: rgba(245, 244, 238);
 }
   
@@ -476,7 +437,6 @@ img {
         height: 950px;
         margin: 0;
         float: left;
-    
       }
 
       #peaceline-main {
@@ -484,29 +444,145 @@ img {
         padding: 30px 0;
         margin: 0;
         height: 900px;
-    
       }
 
       #cover-text {
         width: 25%;
         height: 200px;
         margin-right: 30%;
-    }
-      }
+        }
+    
 
       #description-top, #description-bottom {
         clear: both;
-        width: 100%;
+        width: 96%;
         height: 350px;
         padding: 2%;
       }
-      
-      hr {
-          display: none;
+
+      #description-top p {
+        
+        padding-right: 70px;
+
       }
 
-  }
+    }
+      
+      /* hr {
+          display: none;
+      } */
+
+  
       
   /* For Medium screens sizes from 950px wide and down */
 
-  
+    @media screen and (max-width: 950px) {
+        
+            #menu {
+                clear: both;
+                
+                margin-left: 0;
+                margin-bottom: 0px;
+                line-height: 25px;
+                height: 60px;
+                padding-top: 10px;
+                padding-bottom: 10px
+              }
+
+          header {
+              clear: both;
+              background-color: rgba(245, 244, 238);
+          }
+          
+          #logo {
+              margin-left: 0;
+              padding-left: 20px;
+          }
+
+          #peaceline-main {
+            width: 100%;
+            padding: 30px 0;
+            margin: 0;
+            height: 600px;
+          }
+
+          #cover-text {
+            width: 50%;
+            height: 200px;
+            margin-right: 30%;
+            font-size: 100%;
+          }
+
+          .hero-outer {
+            width: 100%;
+            height: auto;
+            margin: 0;
+            float: left;
+        }
+
+        #description-top, #description-bottom {
+            clear: both;
+            width: 96%;
+            height: 800px;
+            padding: 2%;
+          }
+    
+          #description-top p {
+            padding-right: 40px;
+            width: 65%;
+            padding-top: 10px;
+          }
+
+          #description-bottom p {
+            padding-right: 40px;
+            width: 65%;
+            padding-top: 60px;
+          }
+
+          #description-bottom h2 {
+            
+            text-align: left;
+            font-size: 400%;
+            width: 30%;
+            float: none;
+            padding-right: 10px;
+            padding-left: 60px;
+          }
+
+          about-outer {
+              clear: both;
+            height: 1200px;
+            width: 65%;
+            overflow: hidden;
+          }
+
+          .about-containers {
+              width: 100%;
+          }
+
+          .about-containers h2 {
+              font-size: 200%;
+          }
+
+          #details {
+              height: 300px;
+            }
+
+          #form-container {
+                height: 600px;
+            }
+
+          #sign-up-photo h2 {
+            text-align: center center;
+            font-size: 400%;
+            }
+            
+            #gallery-main-image {
+                width: 100%;
+            }
+
+            #gallery-main-image h2 {
+            font-size: 400%;
+            }
+
+    }
