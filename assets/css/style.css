@@ -36,7 +36,16 @@ h1, h2 {
 footer {
     height: 75px;
     width: 100%;
-    background-color: rgba(245, 244, 238)
+    background-color: rgba(245, 244, 238);
+}
+
+.copyright {
+    float: right;
+    font-size: 100%;
+    background-color: rgba(245, 244, 238);
+    height: 20px;
+    width: 100%;
+
 }
 
 .social-networks {
@@ -214,7 +223,6 @@ footer {
 }
 
 #about-main h2 {
-    text-align: center center;
     font-size: 700%;
     color: orange;
     padding-left: 5%;
@@ -265,7 +273,6 @@ hr {
     background-repeat: no-repeat;
 }
 #sign-up-photo h2 {
-    text-align: center center;
     font-size: 700%;
     color: orange;
     padding-left: 5%;
@@ -372,7 +379,6 @@ Gallery main Image
 }
 
 #gallery-main-image h2 {
-    text-align: center center;
     font-size: 700%;
     color: orange;
     padding-left: 5%;
@@ -574,7 +580,6 @@ img {
             }
 
           #sign-up-photo h2 {
-            text-align: center center;
             font-size: 400%;
             }
             
