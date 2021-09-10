@@ -74,7 +74,20 @@ I originally included a reviews section on the sign up page but decided to remov
 Ideally the Gallery would have the ability to scroll through the images in a slideshow style view.
 
 
+
 ## Testing ##
+<hr>
+
+The site went through constant testing during implementation to ensure the final product was suitable and free of bugs. I used Google Chromes 'Inspect' feature to ensure that the different portions of the site were both functional and had the desired layout.
+
+The various features of the site all had the desire outcomes - the Nav menu section allowed for the user to cycle effortlessy through the site, the Booking Form had all the relevant inputs and the Responsive media queries ensured that the site had the desired Aesthetic when viewed on small to large screens sizes.
+
+
+## Validator Testing ##
+
+**HTML**
+
+No errors were returned when passing through the official HTML Validator [HTML Validator]( .)
 
 
 
