@@ -135,6 +135,10 @@ The various features of the site all had the desire outcomes - the Nav menu sect
 
 ## Validator Testing ##
 
+**Lighthouse**
+
+![Ligthhouse](https://github.com/bobbydeane/portfolio-project-1/blob/main/assets/images/ReadME-media/lighthouse.PNG?raw=true)
+
 **HTML**
 
 
