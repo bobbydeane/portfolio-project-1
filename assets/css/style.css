@@ -40,11 +40,11 @@ footer {
 }
 
 .copyright {
-    float: right;
     font-size: 100%;
     background-color: rgba(245, 244, 238);
     height: 20px;
     width: 100%;
+    text-align: center;
 
 }
 
