@@ -17,6 +17,9 @@ Through the site, user will be able to get historical overview of Belfasts recen
 Here is a link to the [live site](https://bobbydeane.github.io/portfolio-project-1/).
 
 
+![Dander tours Mockup](https://github.com/bobbydeane/portfolio-project-1/blob/main/assets/images/ReadME-media/Style.PNG?raw=true)
+
+
 ## Goals 
 <hr>
 
@@ -25,6 +28,7 @@ The goal of the site is to attract users to the tour through striking imagery an
 The site highlights that the tour is suitabel for Art fans and History fans. The is reflective of the tour because it the descriptions give some insight to local life at that time. As well as showing images of the 'Peace lines'
 
 The name 'Dander' is Belfast slang for walk or stroll and the user is taught this definition on the landing page. It is the sites goal to teach.
+
 
 ### Target Audience ###
 
@@ -35,8 +39,6 @@ The tour covers both sides of the community and all narratives. It is unbiased, 
 The younger generation of Belfast are also a big target audience. These 'conflict babies' grew up with the aftermath of the Troubles and some instagram sites that focus on images from that period are incredibly popular with the local younger generation. This site could capture some of that audience.
 
 
-
-![Dander tours Mockup](https://github.com/bobbydeane/portfolio-project-1/blob/main/assets/images/ReadME-media/Style.PNG?raw=true)
 
 
 
