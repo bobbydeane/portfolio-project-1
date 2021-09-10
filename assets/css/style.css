@@ -58,7 +58,6 @@ footer {
 
 .social-networks i {
     font-size: 160%;
-    margin: 1%;
     padding: 1%;
     color: #3a3a3a;
 }
@@ -243,7 +242,7 @@ hr {
 }
 
 .about-containers h2 {
-    font-size: 400%;
+    font-size: 300%;
     color: black;
     padding-left: 5%;
 }
@@ -273,7 +272,7 @@ hr {
     background-repeat: no-repeat;
 }
 #sign-up-photo h2 {
-    font-size: 700%;
+    font-size: 500%;
     color: orange;
     padding-left: 5%;
 }
@@ -379,7 +378,7 @@ Gallery main Image
 }
 
 #gallery-main-image h2 {
-    font-size: 700%;
+    font-size: 500%;
     color: orange;
     padding-left: 5%;
 }
@@ -399,9 +398,10 @@ img {
     float: left;
     width: 31%;
     padding: 0 10px;
-    height: 300px;
+    height: 250px;
     background-color: rgba(245, 244, 238);
   }
+
   
   /* Remove extra left and right margins, due to padding */
   .row {
@@ -456,6 +456,7 @@ img {
         width: 25%;
         height: 200px;
         margin-right: 30%;
+        font-size: 99%;
         }
     
 
@@ -472,11 +473,14 @@ img {
 
       }
 
+      .card {
+        padding: 16px;
+        background-color: #f1f1f1;
+      }
+
     }
       
-      /* hr {
-          display: none;
-      } */
+    
 
   
       
