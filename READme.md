@@ -17,6 +17,25 @@ Through the site, user will be able to get historical overview of Belfasts recen
 Here is a link to the [live site](https://bobbydeane.github.io/portfolio-project-1/).
 
 
+## Goals 
+<hr>
+
+The goal of the site is to attract users to the tour through striking imagery and descriptions. The images used were carfully picked because they encapture what life was like back then, they are raw and draw the user to discover more. 
+
+The site highlights that the tour is suitabel for Art fans and History fans. The is reflective of the tour because it the descriptions give some insight to local life at that time. As well as showing images of the 'Peace lines'
+
+The name 'Dander' is Belfast slang for walk or stroll and the user is taught this definition on the landing page. It is the sites goal to teach.
+
+### Target Audience ###
+
+The site hopes to attract tourist visiting Belfast. People from the Republic of Ireland, Western Europe and the USA regularly visit Belfast and because the city is small the tour is easily accessible. To some, Belfast may have the tag as a divided city, tourists know the reputation and may have a vague understanding of the Troubles and this may entice them to want to learn more.
+
+The tour covers both sides of the community and all narratives. It is unbiased, so guests will fell welcome no matter their political leanings.
+
+The younger generation of Belfast are also a big target audience. These 'conflict babies' grew up with the aftermath of the Troubles and some instagram sites that focus on images from that period are incredibly popular with the local younger generation. This site could capture some of that audience.
+
+
+
 ![Dander tours Mockup](https://github.com/bobbydeane/portfolio-project-1/blob/main/assets/images/ReadME-media/Style.PNG?raw=true)
 
 
@@ -71,7 +90,7 @@ The 'Our Tour' page goes into more detail about the tour and breaks down the 4 k
 ![About text](https://github.com/bobbydeane/portfolio-project-1/blob/main/assets/images/ReadME-media/about%20text.PNG?raw=true)
 
 
-The Image matches the landing page image in it format. Large, black & white and striking.
+The Image matches the landing page image in it format. Large, black & white and striking. This image was in colour at first but I added the greyscale to keep the overall them of the site the same.
 
 
 ![About Page](https://github.com/bobbydeane/portfolio-project-1/blob/main/assets/images/ReadME-media/about%20main.PNG?raw=true)
