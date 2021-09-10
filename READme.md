@@ -87,7 +87,55 @@ The various features of the site all had the desire outcomes - the Nav menu sect
 
 **HTML**
 
-No errors were returned when passing through the official HTML Validator [HTML Validator]( .)
+No errors were returned when passing through the official [HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbobbydeane.github.io%2Fportfolio-project-1)
+
+
+**CSS**
+
+No errors were returned when passing through the official [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbobbydeane.github.io%2Fportfolio-project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+
+## Deployment ##
+
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - https://bobbydeane.github.io/portfolio-project-1/
+
+
+## Credits ##
+<hr>
+
+**Content**
+
+The Header layout, Nav elements, About page Image zoom styling and Footer were taken from the Code Institute 'Love Running' Project.
+
+For the form and the gallery cards I used W3schools CSS tutorials and code.
+
+The icons were taken from Font Awesoem and the fonts from Google fonts.
+
+**Media**
+
+The Images used for the cover images were taken from various sites -
+
+https://www.leidenanthropologyblog.nl/articles/walls-of-peace-and-memories-of-the-past-in-belfast
+
+http://www.travelife.ca/DESTINATIONS/Europe2/tabid/533/ArticleID/2406/Colourful-Belfast-is-booming.aspx 
+
+http://www.belfastarchiveproject.com/frankie-quinn
+
+The Images used for the gallery were taken from various sites -
+
+https://www.huffingtonpost.co.uk/2014/11/03/peace-walls-northern-ireland_n_6093634.html
+
+https://www.tumblr.com/tagged/the+troubles?sort=top
+
+https://www.rte.ie/culture/2021/0409/1208796-shooting-the-darkness-the-photographers-of-the-troubles/
+
+https://sharedireland.com/horizon-a-short-piece-by-glenn-j-bradley/
 
 
 
